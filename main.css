@@ -1,0 +1,319 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}            
+
+body{
+	overflow-x: hidden;
+}
+
+.v-header{
+	height: 100vh;
+	display: flex;
+	align-items: center;
+	color: #ffffff;
+}
+
+.cont{
+	max-width: 960px;
+	padding-left: 1rem;
+	padding-right: 1rem;
+	margin: auto;
+	text-align: center; 
+}
+
+.video-wrap{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100vh;
+	overflow: hidden;
+}
+
+.video-wrap video{
+	min-width: 100%;
+	min-height: 100%;
+	zoom:25%;
+}
+
+.header-overlay{
+	height: 100vh;
+	width: 100vw;
+	position: absolute;
+	top: 0;
+	left: 0;
+	background-color: rgba(0,0,0,0.5);
+	z-index: 1;
+}
+
+.header-content{
+	z-index: 2;
+	padding: 0 10vw;
+	margin: 0 2vw;
+	text-align: center;
+	font-family: 'Cinzel', serif;
+}
+
+.header-content h1{
+	font-size: 70px;
+	margin-bottom: 0;
+}
+
+.header-content p{
+	font-size: 2rem;
+	display: block;
+	padding-bottom: 2rem;
+	margin-top: 10px; 
+}
+
+
+@media(max-width: 960px){
+	.header-content h1{
+		font-size: 40px;
+	}
+
+	.header-content p{
+		font-size: 1.5rem;
+	}
+}
+
+.navbar-inverse{
+	background-color: #090a0a;
+}
+
+.navhead{
+	margin-right: 60px;
+}
+
+nav.shrink{
+	background-color: rgba(0,0,0,0);
+	transition: all ease-in .7s;
+	padding-top: 30px;
+}
+
+
+nav.shrink.navbar-brand{
+	font-size: 20px;
+	padding: 30px 0px 0px 80px;
+	color: white;
+	transition: all ease-in .7s;
+}
+
+
+nav.shrink>li>a{
+	color:white;
+	font-size: 16px;
+	font-family: heading-text;
+	transition: all ease-in .7s;
+	padding-top: 30px;
+}
+nav{
+	background-color: rgba(0,0,0,0);
+	transition: all ease-in .7s;
+	border-bottom: none;
+	overflow: hidden;
+
+}
+
+
+nav.navbar-brand{
+	font-size: 20px;
+	padding: 30px 0px 0px 80px;
+	color: white;
+	transition: all ease-in .7s;
+}
+
+
+nav>li>a{
+	color:white;
+	font-size: 16px;
+	font-family: heading-text;
+	transition: all ease-in .7s;
+	padding-top: 30px;
+}
+
+.navbar{
+	border-bottom: none;
+}
+
+.navbar-inverse .navbar-collapse{
+	overflow: hidden;
+}
+
+.carousel-inner>.item>a>img, .carousel-inner>.item>img, .img-responsive, .thumbnail a>img, .thumbnail>img {
+	height: 75vh;
+	width: 100%;
+}
+
+.periscope{
+	color: #ffffff;
+	background-image: url("back.jpg");
+	background-attachment: fixed;
+}
+
+.mob{
+	width: 49%;
+	height:70vh;
+	float:left;
+	margin: 1rem;
+	opacity: 1;
+	transition: transform 1s;
+	border-radius: 5%;
+	content: "Hello";
+}
+ .mob:hover{
+	opacity: 0.5;
+	width: 49%;
+	height:70vh;
+	float:left;
+	margin: 1rem;
+	transform : scale(0.8);
+}
+.mob1{
+	width: 47%;
+	height:70vh;
+	float:left;
+	margin: 1rem;
+	text-align: center;
+	padding-top: 20vh;	
+}
+
+.mob1 h1{
+	font-size: 5rem;
+}
+
+.mob1 p{
+	font-size: 2rem;
+	line-height: 1.5em;
+}
+.lap{
+	width: 49%;
+	height: 70vh;
+	float:right;
+	margin: 1rem;
+	opacity: 1;
+	transition: transform 1s;
+	border-radius: 5%;
+}
+
+ .lap:hover{
+	opacity: 0.5;
+	width: 49%;
+	height:70vh;
+	float:right;
+	margin: 1rem;
+	transform : scale(0.8);
+}
+
+.lap1{
+	width: 47%;
+	height:70vh;
+	float:right;
+	margin: 1rem;
+	text-align: center;
+	padding-top: 20vh;	
+}
+
+.lap1 h1{
+	font-size: 5rem;
+}
+
+.lap1 p{
+	font-size: 2rem;
+	line-height: 1.5em;
+}
+
+
+@media(max-width: 768px){
+	.mob{
+		width: 100%;
+		height:65vh;
+		margin: auto;
+	}
+	.mob:hover{
+		width: 100%;
+		height:65vh;
+		margin: auto;
+	}
+	.mob1{
+		width: 100%;
+		height:30vh;
+		margin: auto;
+		padding-top: 2vh;	
+	}
+	.lap{
+		width: 100%;
+		height:65vh;
+		margin: auto;
+	}
+	.lap:hover{
+		width: 100%;
+		height:65vh;
+		margin: auto;
+	}
+	.lap1{
+		width: 100%;
+		height:30vh;
+		margin: auto;
+		padding-top: 2vh;	
+	}
+	.mob1 h1{
+		font-size: 3rem;
+}
+
+	.mob1 p{
+		font-size: 1.5rem;
+		line-height: 1em;
+}
+	.lap1 h1{
+		font-size: 3rem;
+	}
+
+	.lap1 p{
+		font-size: 1.5rem;
+		line-height: 1em;
+	}
+}
+
+.container-fluid {
+	padding: 0;
+}
+
+
+.thumbnail img{
+    width: 100% ;
+    border-radius: 20px;
+}
+
+.thumbnail {
+	background-color:#232323 ;
+    width: 100% ;
+    border-radius: 20px;
+    padding: 0;
+}
+.thumbnail>img {
+	height:60vh;
+}
+
+.thumbnail .caption {
+	align-content: center;
+	color: #ffffff;	
+}
+
+.thumbnail .caption .quan{
+	color: black;
+}
+
+canvas{
+  display:block;
+  vertical-align:bottom;
+}
+
+#particles-js{
+  width: 100%;
+  height: 100vh;
+  background-color: #000000;
+  color: #ffffff;
+}
