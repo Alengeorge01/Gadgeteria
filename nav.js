@@ -1,7 +1,8 @@
 $(document).ready(function() {
 	$(window).scroll(function() {
   	if($(document).scrollTop() > 100) {
-    	$('nav').removeClass('shrink');
+		$('nav').removeClass('shrink');
+		$('change').removeClass('shrink_change');
     }
     else {
     $('nav').addClass('shrink');
@@ -20,7 +21,7 @@ $(document).ready(function(){
 	var windowHeight = $(window).height();
 	var navHeight = $('nav.navbar').innerHeight();
 	var siblingHeight = $('#tv').nextAll().innerHeight();
-
+	var newHeight = $(window).height();
 
 	if(height < windowHeight){
 		$('body').css("padding-bottom", windowHeight-navHeight-height-siblingHeight + "px");

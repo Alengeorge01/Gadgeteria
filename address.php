@@ -70,7 +70,7 @@ echo "
 
 		.black{
 			
-			color: black;
+			color: #000;
 			font-weight: bold;
 			font-size: 15px;
 
@@ -78,7 +78,7 @@ echo "
 		
         .f4{
 	     
-	        border-color: black;
+	        border-color: #000;
 	        width:100% ;
  	        height: 30px;
         }
@@ -88,7 +88,7 @@ echo "
 			font-size: 1em;
 			font-weight: bold;
 			width: 30%;
-			margin-bottom: 20px;
+			margin-bottom: 25px;
 				
 		}
 

@@ -52,7 +52,7 @@
                         <input type="password" class="form-control" id="Password" placeholder="Password" name="pass1">
                     </div>
                     <div class="form-group">
-                        <input type="checkbox" id="remember b" name="rem">
+                        <input type="checkbox" class="remember_me" id="remember b" name="rem">
                         <label  for="remember">Remember Me</label>
                         <a href="pass.php" style="float: right;"><label  for="remember">Forgot your password ?</label></a>
                     </div>
