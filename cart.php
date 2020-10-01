@@ -141,7 +141,9 @@ echo "
 		    ?>
 		        <?php
                     
-                    require_once('connect.php');
+					require_once('connect.php');
+					$log_ = ' select name from '.$_SESSION['uname'].' ';
+					$log_1 = mysqli_query($link,$log_);
 		      		$log = ' select * from '.$_SESSION['uname'].' ';
 		      		$log1 = mysqli_query($link,$log); 
                     if(mysqli_num_rows( $log1) > 0 ){
