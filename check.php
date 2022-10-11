@@ -3,7 +3,7 @@
 session_start();
 require_once('connect.php');
         
- $name2= $_REQUEST['uname1'];
+$name2= $_REQUEST['uname1'];
 $pass2= $_REQUEST['pass1'];
 
 

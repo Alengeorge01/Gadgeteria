@@ -29,7 +29,7 @@ if(isset($_SESSION['login']) && ($_SESSION['uname']=='Admin' || $_SESSION['uname
             <div class='header-overlay'></div>
             <div class='header-content'>
                 <h1 class='animated rubberBand'>G@dgeteri@</h1>
-                <p class='animated bounceInUp'>~ A Place where Humans meet Future~ </p> 
+                <p class='animated bounceInUp'>~ A Place where humans meet future~ </p> 
             </div>
         </header>
             <nav class='navbar navbar-inverse navbar-fixed-top shrink'>
